@@ -2102,10 +2102,25 @@ display: none;
 }
 
 
-@media screen and (max-width: 1300px){
+@media screen and (max-width: 600px){
     .ban-content-img{
    width: 50%;
    margin: auto;
    padding-bottom: 20px;
+   padding-top: 100px;
 }
+
+.yers-unit-cls-ban{
+    width: 35%;
+  }
+
+
+.banner-unit-img{
+    width: 35%;
+}
+
+.banner-model-mob{
+    margin-top: -50px;
+}
+
 }
