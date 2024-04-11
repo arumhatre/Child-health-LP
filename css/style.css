@@ -18,6 +18,24 @@ header {
     align-items: center;
 }
 
+* {
+    font-family: Inter, sans-serif;
+    font-weight: 400
+  }
+  
+  .font-500 {
+    font-weight: 500!important
+  }
+  
+  .form-control {
+    border: 1px solid #656565
+  }
+  
+  .select2-container {
+    z-index: 9999
+  }
+
+
 .uk-banner-vitiligo {
     background-position: top right;
     background-repeat: no-repeat;
@@ -1988,7 +2006,7 @@ display: none;
 
 
 .owl-carousel .owl-item img{
-    display: math;
+    display: inline;
     width: 33%;
     margin-bottom: -15px;
 }
@@ -2021,7 +2039,6 @@ display: none;
 @media screen and (max-width: 820px){
  
  .owl-carousel .owl-item img{
-    display: math;
     width: 25%;
     margin-bottom: -15px;
 }
